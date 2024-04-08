@@ -1,0 +1,5 @@
+Sorozatazámítás(N,X,S.): 
+	S:=Fo Ciklus !=l-től N-ig 
+		S:=f(S,X(I)) 
+	Ciklus vége 
+Eljárás  vége. 
