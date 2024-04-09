@@ -1,0 +1,9 @@
+Megadja az adathalmazban található legnagyobb értéket.
+Egy kórházban megmérték minden beteg lázát, adjuk meg, hogy ki a leglázasabb! 
+Maximumkiválasztás(N,X,MAX):
+MAX:=1 
+Ciklus 
+I=2-től N-ig 
+Ha  X(MAX) <X(I) akkor MAX:=I 
+Ciklus vége 
+Eljárás vége.

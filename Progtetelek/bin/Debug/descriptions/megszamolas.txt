@@ -1,0 +1,8 @@
+Megadja, hogy hány olyan elem van az adathalmazban amely eleget tesz a feltételnek.
+Adjuk meg egy szöveg magánhangzóinak számát! 
+Megszámolás(N,X,DB):
+DB:=O
+Ciklus I=1-tól N-ig 
+Ha  T(X(I)) akkor DB:=DB+1 
+Ciklus vége 
+Eljárás vége. 

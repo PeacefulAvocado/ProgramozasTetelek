@@ -1,0 +1,9 @@
+Az eldöntés programozási tétel egy olyan algoritmus, amely segítségével egy adott feltétel alapján eldönthető, hogy egy adott halmaz tartalmaz-e legalább egy elemet, amely kielégíti a feltételt.
+Döntsük el  egy  tanuló év  végi osztályzatai alapján, hogy kitűnő tanuló-e! 
+Eldöntés(N,X,VAN): 
+	I:=1 
+	Cik1us  amíg I<=N  és  nem T(X(I)) 
+		I:=I+1 
+	Cik1us vége 
+	VAN:=(I<=N) 
+E1járás  vége. 

@@ -1,0 +1,9 @@
+A kiválasztás megadja egy adathalmazban az első olyan elem sorszámát amely eleget tesz a feltételnek.
+Adjuk meg egy természetes szám legkisebb, 1-től különböző osztóját! 
+Kiválasztás(N,X,SORSZ): 
+I:=1 
+Ciklus amíg nem T(X(I)) 
+I:=I+1
+Ciklus vége 
+SORSZ:=I 
+Eljárás vége. 

@@ -1,5 +1,8 @@
+A sorozatszámítás programozási tétel az egyik alapvető algoritmus a programozásban. Célja egy adott sorozat elemeinek valamilyen összegzése vagy aggregálása, például összeg, átlag vagy maximum kiszámítása.
+Egy osztály N db tanuló osztályzatának ismeretében adjuk meg az osztály átlagát!
 Sorozatazámítás(N,X,S.): 
-	S:=Fo Ciklus !=l-től N-ig 
+	S:=F0
+	Ciklus I=l-től N-ig 
 		S:=f(S,X(I)) 
 	Ciklus vége 
 Eljárás  vége. 

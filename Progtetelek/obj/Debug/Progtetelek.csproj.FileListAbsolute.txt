@@ -1,0 +1,10 @@
+D:\Tóth Jónás 12.I\C#\ProgramozasTetelek\Progtetelek\bin\Debug\Progtetelek.exe.config
+D:\Tóth Jónás 12.I\C#\ProgramozasTetelek\Progtetelek\bin\Debug\Progtetelek.exe
+D:\Tóth Jónás 12.I\C#\ProgramozasTetelek\Progtetelek\bin\Debug\Progtetelek.pdb
+D:\Tóth Jónás 12.I\C#\ProgramozasTetelek\Progtetelek\obj\Debug\Progtetelek.csproj.AssemblyReference.cache
+D:\Tóth Jónás 12.I\C#\ProgramozasTetelek\Progtetelek\obj\Debug\Progtetelek.Form1.resources
+D:\Tóth Jónás 12.I\C#\ProgramozasTetelek\Progtetelek\obj\Debug\Progtetelek.Properties.Resources.resources
+D:\Tóth Jónás 12.I\C#\ProgramozasTetelek\Progtetelek\obj\Debug\Progtetelek.csproj.GenerateResource.cache
+D:\Tóth Jónás 12.I\C#\ProgramozasTetelek\Progtetelek\obj\Debug\Progtetelek.csproj.CoreCompileInputs.cache
+D:\Tóth Jónás 12.I\C#\ProgramozasTetelek\Progtetelek\obj\Debug\Progtetelek.exe
+D:\Tóth Jónás 12.I\C#\ProgramozasTetelek\Progtetelek\obj\Debug\Progtetelek.pdb
