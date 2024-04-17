@@ -31,22 +31,28 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.elemiTételekToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sorozatszamitas = new System.Windows.Forms.ToolStripMenuItem();
-            this.összetettTételekToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rendezésekToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.keresésekToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.main = new System.Windows.Forms.Panel();
-            this.pseudo = new System.Windows.Forms.Label();
-            this.description = new System.Windows.Forms.Label();
             this.eldöntésToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kiválasztásToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.keresésToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.megszámolásToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maximumkiválasztásToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.example = new System.Windows.Forms.Label();
-            this.inputA = new System.Windows.Forms.TextBox();
-            this.inputB = new System.Windows.Forms.TextBox();
-            this.output = new System.Windows.Forms.TextBox();
+            this.összetettTételekToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rendezésekToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.keresésekToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.main = new System.Windows.Forms.Panel();
             this.run = new System.Windows.Forms.Button();
+            this.output = new System.Windows.Forms.TextBox();
+            this.inputB = new System.Windows.Forms.TextBox();
+            this.inputA = new System.Windows.Forms.TextBox();
+            this.example = new System.Windows.Forms.Label();
+            this.pseudo = new System.Windows.Forms.Label();
+            this.description = new System.Windows.Forms.Label();
+            this.másolásToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kiválogatásToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.szétválogatásToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.metszetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.unióToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.egyszerűCserésRendezésToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -85,59 +91,6 @@
             this.sorozatszamitas.Text = "Sorozatszámítás";
             this.sorozatszamitas.Click += new System.EventHandler(this.sorozatszámításToolStripMenuItem_Click);
             // 
-            // összetettTételekToolStripMenuItem
-            // 
-            this.összetettTételekToolStripMenuItem.Name = "összetettTételekToolStripMenuItem";
-            this.összetettTételekToolStripMenuItem.Size = new System.Drawing.Size(263, 36);
-            this.összetettTételekToolStripMenuItem.Text = "Összetett Tételek";
-            // 
-            // rendezésekToolStripMenuItem
-            // 
-            this.rendezésekToolStripMenuItem.Name = "rendezésekToolStripMenuItem";
-            this.rendezésekToolStripMenuItem.Size = new System.Drawing.Size(186, 36);
-            this.rendezésekToolStripMenuItem.Text = "Rendezések";
-            // 
-            // keresésekToolStripMenuItem
-            // 
-            this.keresésekToolStripMenuItem.Name = "keresésekToolStripMenuItem";
-            this.keresésekToolStripMenuItem.Size = new System.Drawing.Size(164, 36);
-            this.keresésekToolStripMenuItem.Text = "Keresések";
-            // 
-            // main
-            // 
-            this.main.Controls.Add(this.run);
-            this.main.Controls.Add(this.output);
-            this.main.Controls.Add(this.inputB);
-            this.main.Controls.Add(this.inputA);
-            this.main.Controls.Add(this.example);
-            this.main.Controls.Add(this.pseudo);
-            this.main.Controls.Add(this.description);
-            this.main.Location = new System.Drawing.Point(94, 87);
-            this.main.Name = "main";
-            this.main.Size = new System.Drawing.Size(827, 524);
-            this.main.TabIndex = 1;
-            // 
-            // pseudo
-            // 
-            this.pseudo.AutoSize = true;
-            this.pseudo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.pseudo.Location = new System.Drawing.Point(467, 70);
-            this.pseudo.Name = "pseudo";
-            this.pseudo.Size = new System.Drawing.Size(67, 18);
-            this.pseudo.TabIndex = 1;
-            this.pseudo.Text = "pseudo";
-            // 
-            // description
-            // 
-            this.description.AutoSize = true;
-            this.description.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.description.Location = new System.Drawing.Point(78, 70);
-            this.description.MaximumSize = new System.Drawing.Size(200, 0);
-            this.description.Name = "description";
-            this.description.Size = new System.Drawing.Size(98, 18);
-            this.description.TabIndex = 0;
-            this.description.Text = "description";
-            // 
             // eldöntésToolStripMenuItem
             // 
             this.eldöntésToolStripMenuItem.Name = "eldöntésToolStripMenuItem";
@@ -173,31 +126,55 @@
             this.maximumkiválasztásToolStripMenuItem.Text = "Maximumkiválasztás";
             this.maximumkiválasztásToolStripMenuItem.Click += new System.EventHandler(this.maximumkiválasztásToolStripMenuItem_Click);
             // 
-            // example
+            // összetettTételekToolStripMenuItem
             // 
-            this.example.AutoSize = true;
-            this.example.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.example.Location = new System.Drawing.Point(78, 331);
-            this.example.Name = "example";
-            this.example.Size = new System.Drawing.Size(77, 18);
-            this.example.TabIndex = 2;
-            this.example.Text = "example";
+            this.összetettTételekToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.másolásToolStripMenuItem,
+            this.kiválogatásToolStripMenuItem,
+            this.szétválogatásToolStripMenuItem,
+            this.metszetToolStripMenuItem,
+            this.unióToolStripMenuItem});
+            this.összetettTételekToolStripMenuItem.Name = "összetettTételekToolStripMenuItem";
+            this.összetettTételekToolStripMenuItem.Size = new System.Drawing.Size(263, 36);
+            this.összetettTételekToolStripMenuItem.Text = "Összetett Tételek";
             // 
-            // inputA
+            // rendezésekToolStripMenuItem
             // 
-            this.inputA.Location = new System.Drawing.Point(81, 352);
-            this.inputA.Name = "inputA";
-            this.inputA.Size = new System.Drawing.Size(207, 20);
-            this.inputA.TabIndex = 3;
-            this.inputA.Visible = false;
+            this.rendezésekToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.egyszerűCserésRendezésToolStripMenuItem});
+            this.rendezésekToolStripMenuItem.Name = "rendezésekToolStripMenuItem";
+            this.rendezésekToolStripMenuItem.Size = new System.Drawing.Size(186, 36);
+            this.rendezésekToolStripMenuItem.Text = "Rendezések";
             // 
-            // inputB
+            // keresésekToolStripMenuItem
             // 
-            this.inputB.Location = new System.Drawing.Point(81, 378);
-            this.inputB.Name = "inputB";
-            this.inputB.Size = new System.Drawing.Size(207, 20);
-            this.inputB.TabIndex = 4;
-            this.inputB.Visible = false;
+            this.keresésekToolStripMenuItem.Name = "keresésekToolStripMenuItem";
+            this.keresésekToolStripMenuItem.Size = new System.Drawing.Size(164, 36);
+            this.keresésekToolStripMenuItem.Text = "Keresések";
+            // 
+            // main
+            // 
+            this.main.Controls.Add(this.run);
+            this.main.Controls.Add(this.output);
+            this.main.Controls.Add(this.inputB);
+            this.main.Controls.Add(this.inputA);
+            this.main.Controls.Add(this.example);
+            this.main.Controls.Add(this.pseudo);
+            this.main.Controls.Add(this.description);
+            this.main.Location = new System.Drawing.Point(94, 87);
+            this.main.Name = "main";
+            this.main.Size = new System.Drawing.Size(827, 524);
+            this.main.TabIndex = 1;
+            // 
+            // run
+            // 
+            this.run.Location = new System.Drawing.Point(294, 350);
+            this.run.Name = "run";
+            this.run.Size = new System.Drawing.Size(75, 23);
+            this.run.TabIndex = 6;
+            this.run.Text = "Futtatás";
+            this.run.UseVisualStyleBackColor = true;
+            this.run.Click += new System.EventHandler(this.run_Click);
             // 
             // output
             // 
@@ -209,15 +186,90 @@
             this.output.TabIndex = 5;
             this.output.Visible = false;
             // 
-            // run
+            // inputB
             // 
-            this.run.Location = new System.Drawing.Point(294, 350);
-            this.run.Name = "run";
-            this.run.Size = new System.Drawing.Size(75, 23);
-            this.run.TabIndex = 6;
-            this.run.Text = "Futtatás";
-            this.run.UseVisualStyleBackColor = true;
-            this.run.Click += new System.EventHandler(this.run_Click);
+            this.inputB.Location = new System.Drawing.Point(81, 378);
+            this.inputB.Name = "inputB";
+            this.inputB.Size = new System.Drawing.Size(207, 20);
+            this.inputB.TabIndex = 4;
+            this.inputB.Visible = false;
+            // 
+            // inputA
+            // 
+            this.inputA.Location = new System.Drawing.Point(81, 352);
+            this.inputA.Name = "inputA";
+            this.inputA.Size = new System.Drawing.Size(207, 20);
+            this.inputA.TabIndex = 3;
+            this.inputA.Visible = false;
+            // 
+            // example
+            // 
+            this.example.AutoSize = true;
+            this.example.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.example.Location = new System.Drawing.Point(78, 331);
+            this.example.Name = "example";
+            this.example.Size = new System.Drawing.Size(77, 18);
+            this.example.TabIndex = 2;
+            this.example.Text = "example";
+            // 
+            // pseudo
+            // 
+            this.pseudo.AutoSize = true;
+            this.pseudo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.pseudo.Location = new System.Drawing.Point(467, 70);
+            this.pseudo.Name = "pseudo";
+            this.pseudo.Size = new System.Drawing.Size(67, 18);
+            this.pseudo.TabIndex = 1;
+            this.pseudo.Text = "pseudo";
+            // 
+            // description
+            // 
+            this.description.AutoSize = true;
+            this.description.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.description.Location = new System.Drawing.Point(78, 70);
+            this.description.MaximumSize = new System.Drawing.Size(200, 0);
+            this.description.Name = "description";
+            this.description.Size = new System.Drawing.Size(98, 18);
+            this.description.TabIndex = 0;
+            this.description.Text = "description";
+            // 
+            // másolásToolStripMenuItem
+            // 
+            this.másolásToolStripMenuItem.Name = "másolásToolStripMenuItem";
+            this.másolásToolStripMenuItem.Size = new System.Drawing.Size(276, 36);
+            this.másolásToolStripMenuItem.Text = "Másolás";
+            this.másolásToolStripMenuItem.Click += new System.EventHandler(this.másolásToolStripMenuItem_Click);
+            // 
+            // kiválogatásToolStripMenuItem
+            // 
+            this.kiválogatásToolStripMenuItem.Name = "kiválogatásToolStripMenuItem";
+            this.kiválogatásToolStripMenuItem.Size = new System.Drawing.Size(276, 36);
+            this.kiválogatásToolStripMenuItem.Text = "Kiválogatás";
+            this.kiválogatásToolStripMenuItem.Click += new System.EventHandler(this.kiválogatásToolStripMenuItem_Click);
+            // 
+            // szétválogatásToolStripMenuItem
+            // 
+            this.szétválogatásToolStripMenuItem.Name = "szétválogatásToolStripMenuItem";
+            this.szétválogatásToolStripMenuItem.Size = new System.Drawing.Size(276, 36);
+            this.szétválogatásToolStripMenuItem.Text = "Szétválogatás";
+            // 
+            // metszetToolStripMenuItem
+            // 
+            this.metszetToolStripMenuItem.Name = "metszetToolStripMenuItem";
+            this.metszetToolStripMenuItem.Size = new System.Drawing.Size(276, 36);
+            this.metszetToolStripMenuItem.Text = "Metszet";
+            // 
+            // unióToolStripMenuItem
+            // 
+            this.unióToolStripMenuItem.Name = "unióToolStripMenuItem";
+            this.unióToolStripMenuItem.Size = new System.Drawing.Size(276, 36);
+            this.unióToolStripMenuItem.Text = "Unió";
+            // 
+            // egyszerűCserésRendezésToolStripMenuItem
+            // 
+            this.egyszerűCserésRendezésToolStripMenuItem.Name = "egyszerűCserésRendezésToolStripMenuItem";
+            this.egyszerűCserésRendezésToolStripMenuItem.Size = new System.Drawing.Size(439, 36);
+            this.egyszerűCserésRendezésToolStripMenuItem.Text = "Egyszerű cserés rendezés";
             // 
             // Form1
             // 
@@ -259,6 +311,12 @@
         private System.Windows.Forms.TextBox output;
         private System.Windows.Forms.TextBox inputB;
         private System.Windows.Forms.TextBox inputA;
+        private System.Windows.Forms.ToolStripMenuItem másolásToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kiválogatásToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem szétválogatásToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem metszetToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem unióToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem egyszerűCserésRendezésToolStripMenuItem;
     }
 }
 

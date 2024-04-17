@@ -133,6 +133,12 @@ namespace Progtetelek
                 case "maximumkivalasztas":
                     Maximumkivalasztas();
                     break;
+                case "masolas":
+                    Masolas();
+                    break;
+                case "kivalogatas":
+                    Kivalogatas();
+                    break;
                 default:
                     break;
             }
@@ -253,6 +259,60 @@ namespace Progtetelek
 
             }
                 catch (Exception)
+            {
+
+                output.Text = "hibas input";
+            }
+        }
+
+        private void másolásToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            thesis = "masolas";
+            Display();
+        }
+
+        
+
+        public void Masolas()
+        {
+            try
+            {
+                string TXT = inputA.Text;
+                int N = TXT.Length;
+                output.Text = tetelek.Masolas(N, TXT);
+            } catch(Exception)
+            {
+
+                output.Text = "hibas input";
+            }
+        }
+
+        private void kiválogatásToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            thesis = "kivalogatas";
+            Display();
+        }
+
+        public void Kivalogatas()
+        {
+            try
+            {
+               List<(string,int)> tanulok = new List<(string,int)> ();
+                string[] input = inputA.Text.Split(';');
+                foreach(var tanulo in input)
+                {
+                    string nev = tanulo.Split(',')[0];
+                    int atlag = int.Parse(tanulo.Split(',')[1]);
+                    tanulok.Add((nev, atlag));
+                }
+                int N = tanulok.Count;
+
+                foreach(var nev in tetelek.Kivalogatas(tanulok,N))
+                {
+                    output.Text += nev + ' ';
+                }
+                output.Text += Environment.NewLine + " voltak kiváló tanulók";
+            } catch(Exception)
             {
 
                 output.Text = "hibas input";

@@ -102,5 +102,34 @@ namespace Progtetelek
             }
             return max;
         }
+
+        public string Masolas(int N, string X)
+        {
+            string Y = "";
+            for(int i = 0; i < N; i++)
+            {
+                if(Mgh(X[i].ToString()))
+                {
+                    Y += 'e';
+                } else
+                {
+                    Y += X[i];
+                }
+            }
+            return Y;
+        }
+
+        public List<string> Kivalogatas(List<(string,int)> T, int N)
+        {
+            List<string> result = new List<string>();
+            for(int i = 0; i < N; i++)
+            {
+                if(T[i].Item2 == 5)
+                {
+                    result.Add(T[i].Item1);
+                }
+            }
+            return result;
+        }
     }
 }

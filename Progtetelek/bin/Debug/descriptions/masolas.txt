@@ -1,0 +1,7 @@
+Egy sorozatból másolatot készít és/vagy módosít megadott feltétel alapján.
+Egy szöveg minden magánhangzóját cseréljük ki az e betűre! 
+Másolás(N,X,Y}: 
+Ciklus I=1-tól N-ig 
+Y(I)  :=f (X(I}) 
+Ciklus vége 
+Eljárás vége. 

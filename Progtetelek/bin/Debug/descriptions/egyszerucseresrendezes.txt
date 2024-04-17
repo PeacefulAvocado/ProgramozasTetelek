@@ -1,0 +1,9 @@
+Hasonlítsuk össze az első elemet a sorozat összes többi mögötte levő  elemével, s ha  valamelyik kisebb nála, akkor cseréljük meg azzal!
+Adjunk meg egy rendezetlen számsorozatot, nézzük meg a rendezett sorozatot.
+Rendezés (N, X) : 
+Ciklus I=1-től  N-1-ig 
+Ciklus J=I+1-től N-ig
+Ha X(I)>X(J) akkor Csere(X(I),X(J) ) 
+Ciklus vége 
+Ciklus vége 
+Eljárás vége.

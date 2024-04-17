@@ -1,0 +1,8 @@
+Nem minden esetben kell lemásolni a teljes bemenő sorozatot, hanem annak csupán egy részére kell korlátozni a vizsgálatot. Legegyszerűbb esetben a "vizsgálat" mindössze elemmásolás.
+Adjuk meg egy osztály azon tanulóit, akik kiváló átlagúak! (név1,átlag1;név2,átlag2;...)
+Kiválogatás(N,X,DB,Y) : 
+DB:=O 
+Ciklus I=1-tól  N-ig 
+Ha  T(X(I))  akkor  DB: =DB+1:  Y(DB)  :=I 
+Ciklus vége 
+Eljárás vége. 

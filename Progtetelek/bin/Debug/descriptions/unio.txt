@@ -1,0 +1,12 @@
+Két adathalmazban előforduló különböző elemek halmazát adja meg.
+Adjunk meg két számsorozatot, nézzük meg az uniójukat.
+Egyasítés(N,X,M,Y,DB,Z) : 
+Z:=X:  DB :=N 
+Ciklus J=1-tól  M-ig 
+I:=1 
+Ciklus amíg I<=N  és  X(I)!=Y(J) 
+I:=I+1 
+Ciklus vége 
+Ha  I>N  akkor DB :=DB+1:  Z(DB)  :=X( I) 
+Ciklus vége 
+Eljárás vége. 

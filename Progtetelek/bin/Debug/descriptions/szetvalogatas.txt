@@ -1,0 +1,10 @@
+Megkülönböztető feltétel alapján két tipusú adathalmaz tipus szerinti szétválogatása.
+Adott N db természetes szám, válogassuk szét a párosakat és  a páratlanokat! 
+Szétválogatás(N,X,DBY,Y,Z,DB Z) : 
+DBY:=O:  
+DBZ :=O 
+Ciklus I=1-tól N-ig 
+Ha  T(X(I))  akkor DBY: =DBY+l:  Y(DBY) :=X(I) 
+különben DBZ :=DBZ+l:  Z(DBZ)  :=X(I) 
+Ciklus vége 
+Eljárás  vége . 

@@ -1,0 +1,12 @@
+Két adathalmaz metszetét állapitja meg.
+Adjunk meg két számsorozatot, nézzük meg a metszetüket.
+Metszet{N,X,M, Y,DB,Z): 
+DB:=O 
+Ciklus I=1-tól N-ig 
+J:=1 
+Ciklus amíg J<=M  és  X{I)!=Y(J) 
+J:=J+l 
+Ciklus  vége 
+Ha  J<=M  akkor DB:=DB+l:  Z{DB) :=X{I) 
+Ciklus vége 
+Eljárás vége. 
